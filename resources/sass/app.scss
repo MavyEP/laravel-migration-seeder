@@ -1,1 +1,22 @@
 @import '~bootstrap/scss/bootstrap';
+
+
+.flex {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+
+      a {
+        margin: auto;
+        font-size: 50px;
+        color: lightblue;
+      }
+}
+
+a:hover{
+  text-decoration: none;
+  opacity: none;
+  color: red;
+  font-size: 70px;
+}
